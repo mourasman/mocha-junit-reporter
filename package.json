@@ -1,5 +1,5 @@
 {
-  "name": "mocha-junit-reporter",
+  "name": "mocha-junit-reporter-mourasman",
   "version": "1.18.0",
   "description": "A JUnit reporter for mocha.",
   "main": "index.js",
