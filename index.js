@@ -142,6 +142,7 @@ function MochaJUnitReporter(runner, options) {
 
   this._runner.on('end', function(){
     this.flush(testsuites);
+    this._runner.emit('reporterEnd');
   }.bind(this));
 }
 
